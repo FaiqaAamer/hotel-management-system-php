@@ -21,6 +21,8 @@ A full-stack hotel management system built with **PHP**, **MySQL**, and **Bootst
 - Add, edit, and delete rooms
 - View all confirmed reservations
 
+---
+
 ## Tech Stack
 
 - **Backend:** PHP (procedural, mysqli)
