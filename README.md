@@ -4,6 +4,8 @@ A full-stack hotel management system built with **PHP**, **MySQL**, and **Bootst
 
 > Developed as a semester project.
 
+---
+
 ## Features
 
 ### Customer
@@ -25,6 +27,8 @@ A full-stack hotel management system built with **PHP**, **MySQL**, and **Bootst
 - **Database:** MySQL
 - **Frontend:** HTML, CSS, Bootstrap 5
 - **Icons:** Bootstrap Icons
+
+---
 
 ## Project Structure
 
@@ -49,6 +53,8 @@ A full-stack hotel management system built with **PHP**, **MySQL**, and **Bootst
 ├── register.php
 └── script.sql         # database schema + seed data
 ```
+
+---
 
 ## Setup / Installation
 
@@ -80,18 +86,26 @@ A full-stack hotel management system built with **PHP**, **MySQL**, and **Bootst
    http://localhost/your-project-folder/
    ```
 
+---
+
 ## Sample Login Credentials
 
 Seed data in `script.sql` includes sample admin and customer accounts. Check `script.sql` for the current dummy credentials, or register a new account via the sign-up page.
+
+---
 
 ## Notes
 
 - This is an academic/learning project — password handling and input sanitization are simplified and not production-hardened.
 - Room images are placeholder stock photos used for demonstration purposes only.
 
+---
+
 ## License
 
 This project is for educational purposes.
+
+---
 
 ## Author
 **Faiqa Aamer** 
