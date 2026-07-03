@@ -1,0 +1,204 @@
+/* ---------------- Navbar Styling ---------------- */
+.custom-navbar {
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(6px);
+}
+
+.custom-navbar .navbar-brand {
+  color: #f8d210;
+}
+
+.custom-navbar .nav-link {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #f8d210;
+}
+
+.logout-link {
+  color: #ff4d4d !important;
+}
+
+/* ---------------- Button Styling ---------------- */
+.text-charcoal {
+  color: #4c4a4a; /* your theme’s charcoal gray */
+}
+
+.text-bronze {
+  color: #C5A46D !important; /* warm gold/bronze tone */
+}
+.bg-gold {
+  background-color: #C5A46D; /* your gold shade */
+}
+
+.text-grey {
+  color: #555 !important; /* medium gray */
+}
+
+.btn-red {
+  background-color: #b84f49;   /* Bootstrap's danger red */
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-red:hover {
+  background-color: #b52b27;   /* darker red on hover */
+  color: #fff;
+}
+
+.btn-gold {
+  background-color: #C5A46D; /* gold */
+  color: #000;
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-gold:hover {
+  background-color: #A67C52; /* bronze */
+  color: #fff;
+}
+
+.btn-gold:focus,
+.btn-gold:active,
+.btn-gold.active,
+.show > .btn-gold.dropdown-toggle {
+  background-color: #A67C52 !important; /* bronze stays on click */
+  color: #fff !important;               /* text stays white */
+  box-shadow: none !important;          /* remove Bootstrap’s default styles */
+  outline: none !important;
+}
+
+.btn-outline-gold {
+  color: #C5A46D;                /* gold text */
+  border: 2px solid #C5A46D;     /* gold outline */
+  background-color: transparent; /* no fill */
+  transition: all 0.3s ease;
+}
+
+.btn-outline-gold:hover,
+.btn-outline-gold:focus,
+.btn-outline-gold:active {
+  background-color: #C5A46D;     /* gold fill on hover/click */
+  color: #fff;                   /* white text */
+  box-shadow: none;
+  outline: none;
+}
+
+.btn-primary {
+  background-color: #C5A46D;
+  border: none;
+  color: #000;
+}
+
+.btn-primary:hover {
+   background-color: #A67C52; /* bronze shade for hover */
+  color: #fff;               /* text turns white */
+}
+
+.btn-success {
+  background-color: #4caf50;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #45a049;
+}
+
+.btn-danger {
+  background-color: #ff4d4d;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #e63939;
+}
+
+/* ---------------- Hero Section ---------------- */
+.hero-section {
+  position: relative;
+  color: #fff;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.5); /* dark overlay for readability */
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.navbar.bg-transparent {
+    padding-top: 20px ;
+  position: relative;
+  z-index: 3; /* keeps navbar above overlay */
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #f8d210 !important; /* golden hover accent */
+}
+
+.navbar-brand{
+    padding-left: 10px;
+}
+.navbar-nav .nav-item {
+  margin-right: 100px;
+}
+
+.navbar-nav .nav-item:last-child {
+  margin-right: 0;
+}
+/* ---------------- Card Styling ---------------- */
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #fff;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+.card .card-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.card .card-text {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1.25rem;
+}
+
+.card .btn {
+  border-radius: 30px;
+  padding: 0.5rem 1.25rem;
+  font-weight: 500;
+}
+.card-img-top {
+  height: 250px;        /* fixed height for all room images */
+  object-fit: cover;    /* crop/scale to fill without distortion */
+}
+
+.form-control:focus {
+  border-color: #C5A46D;       /* gold border */
+  box-shadow: 0 0 0 0.2rem rgba(197, 164, 109, 0.25); /* soft gold glow */
+  outline: none;               /* remove default outline */
+}
