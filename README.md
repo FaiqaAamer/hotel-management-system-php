@@ -62,7 +62,7 @@ A full-stack hotel management system built with **PHP**, **MySQL**, and **Bootst
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/FaiqaAamer/Hotel-management-system-php.git
    ```
 
 2. **Move the project into your local server directory**
